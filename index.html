@@ -84,8 +84,33 @@
     <div class="what-we-do" id="team">
         <div class="container">
             <h2 class="text-uppercase">款式浏览</h2>
-            <div id="slideshow">
-                <img src="imgs/mei1.jpg" style="width: 100%; height: auto;">
+            <div class="slider">
+                <img src="imgs/meijia2.jpg" width="auto" height="auto" alt="">
+                <img src="imgs/meijia28.jpg" width="auto" height="auto" alt="">
+                <img src="imgs/meijia27.jpg" width="auto" height="auto" alt="">
+                <img src="imgs/meijia26.jpg" width="auto" height="auto" alt="">
+                <img src="imgs/meijia25.jpg" width="auto" height="auto" alt="">
+                <img src="imgs/meijia24.jpg" width="auto" height="auto" alt="">
+                <img src="imgs/meijia23.jpg" width="auto" height="auto" alt="">
+                <img src="imgs/meijia22.jpg" width="auto" height="auto" alt="">
+                <img src="imgs/meijia21.jpg" width="auto" height="auto" alt="">
+                <img src="imgs/meijia20.jpg" width="auto" height="auto" alt="">
+                <img src="imgs/meijia19.jpg" width="auto" height="auto" alt="">
+                <img src="imgs/meijia18.jpg" width="auto" height="auto" alt="">
+                <img src="imgs/meijia17.jpg" width="auto" height="auto" alt="">
+                <img src="imgs/meijia16.jpg" width="auto" height="auto" alt="">
+                <img src="imgs/meijia15.jpg" width="auto" height="auto" alt="">
+                <img src="imgs/meijia14.jpg" width="auto" height="auto" alt="">
+                <img src="imgs/meijia13.jpg" width="auto" height="auto" alt="">
+                <img src="imgs/meijia12.jpg" width="auto" height="auto" alt="">
+                <img src="imgs/meijia11.jpg" width="auto" height="auto" alt="">
+                <img src="imgs/meijia10.jpg" width="auto" height="auto" alt="">
+                <img src="imgs/meijia9.jpg" width="auto" height="auto" alt="">
+                <img src="imgs/meijia8.jpg" width="auto" height="auto" alt="">
+                <img src="imgs/meijia7.jpg" width="auto" height="auto" alt="">
+                <img src="imgs/meijia6.jpg" width="auto" height="auto" alt="">
+                <img src="imgs/meijia5.jpg" width="auto" height="auto" alt="">
+                <img src="imgs/meijia3.jpg" width="auto" height="auto" alt="">
             </div>
         </div>
     </div>
@@ -98,7 +123,7 @@
                     <div class="item f-item">
                         <div>
                             <h5>单色</h5>
-                            <p>The best to start</p>
+
                         </div>
                         <div>
                             <p><span>￥</span> <span>3,000</span> /每回</p>
@@ -109,7 +134,7 @@
                     <div class="item f-item">
                         <div>
                             <h5>简单款式</h5>
-                            <p>The best to start</p>
+
                         </div>
                         <div>
                             <p><span>￥</span> <span>4,000起</span> /每回</p>
@@ -120,7 +145,7 @@
                     <div class="item l-item">
                         <div>
                             <h5>复杂款式</h5>
-                            <p>The best to start</p>
+
                         </div>
                         <div>
                             <p><span>￥</span> <span>5,000起</span> /每回</p>
@@ -131,7 +156,7 @@
                     <div class="item l-item">
                         <div>
                             <h5>甲片延长单色</h5>
-                            <p>The best to start</p>
+
                         </div>
                         <div>
                             <p><span>￥</span> <span>6,000</span> /每回</p>
@@ -142,7 +167,7 @@
                     <div class="item l-item">
                         <div>
                             <h5>水晶延长单色</h5>
-                            <p>The best to start</p>
+
                         </div>
                         <div>
                             <p><span>￥</span> <span>7,000</span> /每回</p>
@@ -153,7 +178,7 @@
                     <div class="item l-item">
                         <div>
                             <h5>甲片延长简单款式</h5>
-                            <p>The best to start</p>
+
                         </div>
                         <div>
                             <p><span>￥</span> <span>7,000起</span> /每回</p>
@@ -164,7 +189,7 @@
                     <div class="item l-item">
                         <div>
                             <h5>水晶延长简单款式</h5>
-                            <p>The best to start</p>
+
                         </div>
                         <div>
                             <p><span>￥</span> <span>8,000起</span> /每回</p>
@@ -218,23 +243,30 @@
 
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.slider').bxSlider({
+                auto: true,
+                pause: 5000,
+            });
+        });
+    </script>
+
     <script>
-        var images = ['imgs/meijia2.jpg', 'imgs/meijia28.jpg', 'imgs/meijia27.jpg', 'imgs/meijia26.jpg', 'imgs/meijia25.jpg', 'imgs/meijia24.jpg', 'imgs/meijia23.jpg', 'imgs/meijia22.jpg', 'imgs/meijia21.jpg', 'imgs/meijia20.jpg', 'imgs/meijia19.jpg', 'imgs/meijia18.jpg', 'imgs/meijia17.jpg', 'imgs/meijia16.jpg', 'imgs/meijia15.jpg', 'imgs/meijia14.jpg', 'imgs/meijia13.jpg', 'imgs/meijia12.jpg', 'imgs/meijia11.jpg', 'imgs/meijia10.jpg', 'imgs/meijia9.jpg', 'imgs/meijia8.jpg', 'imgs/meijia7.jpg', 'imgs/meijia6.jpg', 'imgs/meijia5.jpg', 'imgs/meijia3.jpg'];
-        var currentIndex = 0;
 
-        function nextImage() {
-            currentIndex++;
-            if (currentIndex == images.length) {
-                currentIndex = 0;
-            }
-            var imgElement = document.getElementById("slideshow").getElementsByTagName("img")[0];
-            imgElement.src = images[currentIndex];
-        }
-
-        setInterval(nextImage, 2000);
+        $(document).ready(function () {
+            $('.slider').bxSlider({
+                auto: true,
+                pause: 5000,
+            });
+        });
         $(function () {
 
             'use strict';
+
 
             $('.navbar ul.navbar-nav li.search a').on('click', function () {
                 $(this).siblings('form').fadeToggle();
