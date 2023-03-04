@@ -9,6 +9,7 @@
     }
 }
 body {
+    font-family: "Hiragino maru Gothic ProN W4", "Hiragino Kaku Gothic Pro","Hiragino Sans", "arial", "Meiryo", "MS PGothic", sans-serif!important;
     overflow-x: hidden;
     font-family: 'Poppins', sans-serif;
 }
@@ -87,6 +88,7 @@ h2 {
 }
 
 p {
+    font-family: fangsong;
     font-size: 14px;
     font-weight: 400;
 }
@@ -197,6 +199,7 @@ header .row > div:last-of-type button a {
 }
 
 .about-us .container > p {
+    font-family: fangsong;
     font-size: 25px;
 }
 
@@ -453,8 +456,17 @@ header .row > div:last-of-type button a {
 }
 
 .contact .container {
+    color: violet;
+    font-size: larger;
+    font: bold;
     padding-top: 50px; 
     padding-bottom: 50px; 
+}
+.contact .container span{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 800;
+    font-size: larger;
+    color: rebeccapurple;
 }
 
 .contact .contact-form {
