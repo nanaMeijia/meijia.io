@@ -508,6 +508,16 @@ header .row > div:last-of-type button a {
     cursor: pointer;
 }
 
+.btn_item {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    background: #e84708;
+    color: #fff;
+    border: 1px solid rgb(228,226,223);
+    border-radius: 50px; 
+  }
+
 /* footer */
 
 footer {
