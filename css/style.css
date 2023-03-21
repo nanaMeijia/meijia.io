@@ -1,6 +1,9 @@
 *, html, body {
     transition: all 1s ease;
 }
+.wxcd img{
+    width: 20rem;
+}
 
 @media (min-width: 992px)
 {
