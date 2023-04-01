@@ -512,6 +512,7 @@ header .row > div:last-of-type button a {
 }
 
 .btn_item {
+    margin-bottom: 2rem;
     display: inline-block;
     padding: 10px 20px;
     text-decoration: none;
