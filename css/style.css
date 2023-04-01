@@ -463,7 +463,7 @@ header .row > div:last-of-type button a {
     font-size: larger;
     font: bold;
     padding-top: 50px; 
-    padding-bottom: 50px; 
+    /* padding-bottom: 50px;  */
 }
 .contact .container span{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
